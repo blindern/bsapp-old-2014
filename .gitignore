@@ -4,3 +4,11 @@ platforms/
 
 # plugins is also installed locally?
 plugins/
+
+# dependencies
+node_modules/
+bower_components/
+
+# generated files
+www/app.js
+www/app.css

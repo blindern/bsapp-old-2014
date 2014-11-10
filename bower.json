@@ -1,0 +1,13 @@
+{
+  "name": "BS-app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.x",
+    "angular-route": "1.x",
+    "angular-touch": "1.x",
+    "moment": "2.x",
+    "ionic": "~0.9.27",
+    "angular-resource": "~1.3.2"
+  }
+}

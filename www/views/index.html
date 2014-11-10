@@ -1,0 +1,42 @@
+<div class="card">
+  <div class="item item-divider">
+    Matmeny
+  </div>
+
+  <div class="item item-text-wrap">
+
+    <div ng-show="!matmeny">
+      <div ng-show="matmeny_fail">
+        Lasting av matmenyen feilet.
+        <a href ng-click="matmenyLoad()">Prøv på nytt</a>
+      </div>
+      <div ng-show="!matmeny_fail">Laster matmenyen...</div>
+    </div>
+
+    <div ng-show="matmeny">
+      <p class="day">
+        <b>Dagens matrett</b> ({{matmenydate.today|customdate:'dddd'}}):<br>
+        <span ng-show="!matmeny.today">Ukjent</span>
+        <span ng-repeat="dish in matmeny.today.dishes">
+          {{dish}}<span ng-show="!$last">,</span>
+        </span>
+        <span ng-show="matmeny.today.text" style="color: #FF0000">({{matmeny.today.text}})</span>
+      </p>
+      <p>
+        I morgen, {{matmenydate.tomorrow|customdate:'dddd'}}:<br>
+        <span ng-show="!matmeny.tomorrow.day">Ukjent</span>
+        <span ng-repeat="dish in matmeny.tomorrow.dishes">
+          {{dish}}<span ng-show="!$last">,</span>
+        </span>
+        <span ng-show="matmeny.tomorrow.text" style="color: #FF0000">({{matmeny.tomorrow.text}})</span>
+      </p>
+    </div>
+
+
+  </div>
+
+
+  <a class="item" href="https://foreningenbs.no/intern/matmeny/plain">
+    Vis hele menyen
+  </a>
+</div>
