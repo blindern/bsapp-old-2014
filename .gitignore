@@ -1,0 +1,6 @@
+# we don't need the platform directory?
+# (will be generated locally?)
+platforms/
+
+# plugins is also installed locally?
+plugins/
