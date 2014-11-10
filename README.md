@@ -1,11 +1,11 @@
 # BS-app
-Test for en liten app ved bruk av [http://cordova.apache.org/](Apache Cordova). Foreløpig kun satt opp og testet mot Android.
+Test for en liten app ved bruk av [Apache Cordova](http://cordova.apache.org/). Foreløpig kun satt opp og testet mot Android.
 
-Appen er skrevet i [https://docs.angularjs.org/guide](AngularJS) og bruker [http://ionicframework.com/docs/](Ionic) som CSS-rammeverk.
+Appen er skrevet i [AngularJS](https://docs.angularjs.org/guide) og bruker [Ionic](http://ionicframework.com/docs/) som CSS-rammeverk.
 
-Web-avhengigheter håndteres med [http://bower.io/](Bower) og [http://gulpjs.com/](gulp) brukes for å bearbeide js/css osv.
+Web-avhengigheter håndteres med [Bower](http://bower.io/) og [gulp](http://gulpjs.com/) brukes for å bearbeide js/css osv.
 
-Data hentes fra API-et til [https://github.com/blindern/intern](BS sin internside).
+Data hentes fra API-et til [BS sin internside](https://github.com/blindern/intern).
 
 ## Oppsett
 * TODO: Forklare oppsett av Apache Cordova
